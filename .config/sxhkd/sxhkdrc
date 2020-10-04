@@ -1,0 +1,35 @@
+# APPS
+
+super + shift + a
+  code
+super + q
+  pcmanfm
+super + shift + w
+  firefox
+super + shift + s
+  spotify
+super + shift + d
+  discord
+super + m
+  sh /home/philip/.config/xmenu/xmenu.sh
+
+# SXHKD RELOAD
+
+super + shift + Escape
+  pkill -USR1 -x sxhkd
+
+# VOLUME CONTROLS
+XF86AudioNext
+ /home/philip/.config/spotify_control next
+XF86AudioPrev
+ /home/philip/.config/spotify_control previous
+XF86AudioPlay
+ /home/philip/.config/spotify_control playpause
+XF86AudioMute
+  pactl set-sink-mute 0 toggle
+XF86AudioRaiseVolume
+  pactl set-sink-volume 0 +5%
+XF86AudioLowerVolume
+  pactl set-sink-volume 0 -5%
+XF86AudioMicMute
+  pactl set-source-mute 1 toggle
