@@ -2,14 +2,14 @@
 
 I pulled a git repository from the user [Chris Titus](https://github.com/ChrisTitusTech/material-awesome) and slighltly modified it to my needs.
 
-What I did: 
-  Removed time and date from top panel \
-  Removed taskbar from left panel \
-  Changed Brave logo to Firefox logo \
-  Added a desktop for terminal (launches urxvt) \
-  Changed logo from light to bold \
-  Changed the default wallpaper \
-  Music desktop now launches spotify \
+What I did: \
+  * Removed time and date from top panel \
+  * Removed taskbar from left panel \
+  * Changed Brave logo to Firefox logo \
+  * Added a desktop for terminal (launches urxvt) \
+  * Changed logo from light to bold \
+  * Changed the default wallpaper \
+  * Music desktop now launches spotify 
   
 Feel free to clone this repo and use it on your own system.
 
